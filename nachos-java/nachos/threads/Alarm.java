@@ -10,6 +10,8 @@ import java.util.PriorityQueue;
  * until a certain time.
  */
 public class Alarm {
+    //code from fahim
+
     /**
      * Allocate a new Alarm. Set the machine's timer interrupt handler to this
      * alarm's callback.
@@ -49,6 +51,7 @@ public class Alarm {
         KThread.yield();
     }
 
+    
     /**
      * Put the current thread to sleep for at least <i>x</i> ticks,
      * waking it up in the timer interrupt handler. The thread must be
